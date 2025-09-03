@@ -1,7 +1,7 @@
 "use client";
 import React from 'react';
 import { CiSearch, CiShoppingCart } from "react-icons/ci";
-import { FaAngleDown } from "react-icons/fa";
+//import { FaAngleDown } from "react-icons/fa";
 import Image from 'next/image'
 // import DarkMode from './DarkMode';
 
