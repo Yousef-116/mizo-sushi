@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@layer components {
+  .search-bar {
+    @apply w-0 group-hover:w-[300px] duration-300 rounded-full group-hover:border group-hover:border-gray-500 px-3 py-1 focus:outline-none focus:w-[300px] dark:border-gray-800 dark:bg-gray-900 group-hover:dark:bg-gray-800;
+  }
+}
+
+@layer base {
+  html {
+    /* background-color: green;  */
+    font-family: "Montserrat", system-ui;
+  }
+}
+
+/* :root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+} */
