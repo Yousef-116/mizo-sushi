@@ -7,43 +7,40 @@ import { FaWallet } from "react-icons/fa";
 
 const Services = () => {
     return (
-        <div className='container py-16 grid 
-    grid-cols-1 lg:grid-cols-3 gap-8' >
-            <div className='flex items-center gap-4'>
+        <div className='container py-16 grid grid-cols-1 lg:grid-cols-3 gap-8'>
+            <div className='flex flex-col items-center gap-4'>
                 {/* service icon */}
                 <div>
                     <FaCarSide className='text-primary w-12 h-12' />
                 </div>
                 {/* service text */}
-                <div>
+                <div className='text-center'>
                     <h2 className='dark:text-white font-bold text-md'>Free Shipping</h2>
-                    <p className='text-sm text-gray-400'>Free Shipping On All Order</p>
+                    <p className='text-sm text-gray-400'>Free Shipping On Order Over +1000 L.E</p>
                 </div>
             </div>
-            <div className='flex items-center gap-4'>
+            <div className='flex flex-col items-center gap-4'>
                 {/* service icon */}
                 <div>
                     <FaCheckCircle className='text-primary w-12 h-12' />
                 </div>
                 {/* service text */}
-                <div>
+                <div className='text-center'>
                     <h2 className='dark:text-white font-bold text-md'>Safe Money</h2>
                     <p className='text-sm text-gray-400'>30 Days Money Back</p>
                 </div>
             </div>
-            <div className='flex items-center gap-4'>
+            <div className='flex flex-col items-center gap-4'>
                 {/* service icon */}
                 <div>
                     <FaWallet className='text-primary w-12 h-12' />
                 </div>
                 {/* service text */}
-                <div>
+                <div className='text-center'>
                     <h2 className='dark:text-white font-bold text-md'>Secure Payment</h2>
                     <p className='text-sm text-gray-400'>All Payment Secure</p>
                 </div>
             </div>
-            
-            
         </div>
     )
 }

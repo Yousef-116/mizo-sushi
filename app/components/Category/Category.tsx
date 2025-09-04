@@ -94,6 +94,145 @@ const CategoryData = [
         imgPosition: "bottom-0 right-0"
     }
 ]
+
+const Category2 = [
+    {
+        id: 1,
+        subtitles: "Classic Rolls",
+        title: 'Roll',
+        title2: 'Roll',
+        image: "./assets/sushi/roll.png",
+        imageWidth: "w-[320px]",
+        ImageWidth: 320,
+        bgColorFrom: "from-pink-900",
+        bgColorTo: "to-pink-800",
+        cols: "",
+        btnbgColor: "bg-pink-700",
+        btnTextColor: "text-white",
+        imgPosition: "top-0"
+    },
+    {
+        id: 2,
+        subtitles: "Crispy & Hot",
+        title: 'Fried Rolls',
+        title2: 'Fried',
+        image: "./assets/sushi/fried-rolls.png",
+        imageWidth: "w-[320px]",
+        ImageWidth: 320,
+        bgColorFrom: "from-yellow-900",
+        bgColorTo: "to-yellow-800",
+        cols: "",
+        btnbgColor: "bg-yellow-700",
+        btnTextColor: "text-white",
+        imgPosition: "top-0"
+    },
+    {
+        id: 3,
+        subtitles: "Fusion Sushi",
+        title: 'Sushi Sandwich',
+        title2: 'Sandwich',
+        image: "./assets/sushi/sushi-sandwich.png",
+        imageWidth: "w-[350px]",
+        ImageWidth: 350,
+        bgColorFrom: "from-green-900",
+        bgColorTo: "to-green-800",
+        cols: "col-span-2",
+        btnbgColor: "bg-green-700",
+        btnTextColor: "text-white",
+        imgPosition: "top-0"
+    },
+    {
+        id: 4,
+        subtitles: "Unique Flavors",
+        title: 'Junkan',
+        title2: 'Junkan',
+        image: "./assets/sushi/junkan.png",
+        imageWidth: "w-[320px]",
+        ImageWidth: 320,
+        bgColorFrom: "from-orange-900",
+        bgColorTo: "to-orange-800",
+        cols: "col-span-2",
+        btnbgColor: "bg-orange-700",
+        btnTextColor: "text-white",
+        imgPosition: "top-12"
+    },
+    {
+        id: 5,
+        subtitles: "Saucy Delights",
+        title: 'Suses',
+        title2: 'Suses',
+        image: "./assets/sushi/suses.png",
+        imageWidth: "w-[310px]",
+        ImageWidth: 310,
+        bgColorFrom: "from-blue-900",
+        bgColorTo: "to-blue-800",
+        cols: "",
+        btnbgColor: "bg-blue-700",
+        btnTextColor: "text-white",
+        imgPosition: "top-0"
+    },
+    {
+        id: 6,
+        subtitles: "Noodle Bowls",
+        title: 'Noodles',
+        title2: 'Noodles',
+        image: "./assets/sushi/noodles.png",
+        imageWidth: "w-[320px]",
+        ImageWidth: 320,
+        bgColorFrom: "from-yellow-900",
+        bgColorTo: "to-yellow-800",
+        cols: "",
+        btnbgColor: "bg-yellow-700",
+        btnTextColor: "text-white",
+        imgPosition: "top-0"
+    },
+    {
+        id: 8,
+        subtitles: "Fresh Salad",
+        title: 'Salad',
+        title2: 'Salad',
+        image: "./assets/sushi/salad.png",
+        imageWidth: "w-[350px]",
+        ImageWidth: 350,
+        bgColorFrom: "from-green-900",
+        bgColorTo: "to-green-800",
+        cols: "col-span-2",
+        btnbgColor: "bg-green-700",
+        btnTextColor: "text-white",
+        imgPosition: "top-0"
+    },
+    {
+        id: 7,
+        subtitles: "Sushi Pieces",
+        title: 'Pieces',
+        title2: 'Pieces',
+        image: "./assets/sushi/pieces.png",
+        imageWidth: "w-[320px]",
+        ImageWidth: 320,
+        bgColorFrom: "from-red-900",
+        bgColorTo: "to-red-800",
+        cols: "",
+        btnbgColor: "bg-red-700",
+        btnTextColor: "text-white",
+        imgPosition: "top-0"
+    },
+    
+    {
+        id: 9,
+        subtitles: "Refreshing Drinks",
+        title: 'Drinks',
+        title2: 'Drinks',
+        image: "./assets/sushi/drinks.png",
+        imageWidth: "w-[300px]",
+        ImageWidth: 300,
+        bgColorFrom: "from-purple-900",
+        bgColorTo: "to-purple-800",
+        cols: "",
+        btnbgColor: "bg-purple-700",
+        btnTextColor: "text-white",
+        imgPosition: "bottom-0 right-0"
+    }
+]
 const Category = () => {
     function clickBtn() {
         console.log('clicked')
@@ -102,7 +241,7 @@ const Category = () => {
 
 
         <div className='grid grid-cols-2 lg:grid-cols-4 container gap-5'>
-            {CategoryData.map((data) => (
+            {Category2.map((data) => (
                 <div className={`
                     w-full bg-gradient-to-r 
                     ${data.cols}

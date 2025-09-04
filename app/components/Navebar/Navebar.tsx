@@ -47,19 +47,22 @@ const Navbar: React.FC<NavebarProps> = ({ openForm }) => {
                     {/* nav right */}
                     <div className='flex items-center gap-5'>
                         <div className='hidden sm:flex relative group items-center'>
-                            <input type="text" placeholder='Search' className='search-bar focus:border-1  bg-[#010101]
-                            dark:border-gray-800 border-gray-800' />
-                            {/* <CiSearch className='text-2xl text-gray-600 dark:text-gray-300 absolute top-1/2 -translate-y-1/2 right-3 duration-200 cursor-pointer hover:text-primary dark:hover:text-primary' /> */}
+                            <input
+                                type="text"
+                                placeholder='Search'
+                                className='search-bar focus:border-1 bg-[#010101] text-white
+                                dark:border-gray-800 border-gray-800'
+                            />
                             <CiSearch className='text-2xl text-gray-300 absolute 
                             top-1/2 -translate-y-1/2 right-3 duration-200 
                             cursor-pointer hover:text-primary' />
                         </div>
-                        <div className='relative mt-1'>
+                        {/* <div className='relative mt-1'>
                             <button onClick={openForm}>
                                 <CiShoppingCart className='cursor-pointer text-2xl text-gray-600 dark:text-gray-300 hover:text-primary' />
                                 <div className='bg-red-500 p-0 w-4 h-4 absolute top-0 right-0 -m-1 rounded-full text-[10px] text-white'> 4</div>
                             </button>
-                        </div>
+                        </div> */}
                         {/* <DarkMode /> */}
                     </div>
                 </div>

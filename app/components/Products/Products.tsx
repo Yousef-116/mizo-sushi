@@ -97,43 +97,51 @@ const Products = () => {
                 {ProductsData.map((data) => (
                     <div
                         data-aos="fade-up"
-                        data-aos-delay={`${data.price}`}
+                        data-aos-delay={`${data.delay}`}
                         data-aos-duration='700'
-                        key={data.id} className='
-                        flex flex-col 
-                        items-center 
-                        overflow-hidden
-                        '>
+                        key={data.id}
+                        className="
+                            flex flex-row
+                            items-center
+                            bg-gray-900 dark:bg-gray-900
+                            rounded-xl shadow-md
+                            overflow-hidden
+                            p-4
+                            gap-4
+                            min-h-[140px]
+                        "
+                    >
                         {/* Card Image */}
-                        <div className='relative group'>
-                            <Image width={200} height={200} src={data.image} alt={data.title}
-                                className='object-cover w-full h-[200px] rounded-xl 
-                                group-hover:blur-sm transition-all duration-1000' />
-                            {/* Card Button */}
-                            <div className='absolute inset-0 flex 
-                            items-center justify-center
-
-                            transform -translate-y-28
-                            group-hover:translate-y-0 
-
-                            opacity-0 group-hover:opacity-100 
-                            transition-all duration-1000
-
-                            '>
-                                <Button
-                                    textColor='text-white'
-                                    bgColor='bg-primary'
-                                    text='Add To Cart'
-                                    handler={clickBtn}
-                                />
-                            </div>
+                        <div className="flex-shrink-0">
+                            <Image
+                                width={100}
+                                height={100}
+                                src={data.image}
+                                alt={data.title}
+                                className="object-cover w-[100px] h-[100px] rounded-lg"
+                            />
                         </div>
-                        <div className=''>
-                            <h2 className='text-md font-semibold text-white'>
-                                {data.title}</h2>
-                            <p className='text-md font-bold text-white text-center'>
-                                {data.price} L.E
+                        {/* Card Content */}
+                        <div className="flex flex-col justify-between flex-1 h-full">
+                            <h2 className="text-lg font-semibold text-white mb-1">
+                                {data.title}
+                            </h2>
+                            <p className="text-sm text-gray-300 mb-2">
+                                {/* Example description, replace with real data */}
+                                Delicious and fresh, made with premium ingredients.
                             </p>
+                            <div className="flex items-center justify-between">
+                                <span className="text-md font-bold text-primary-light">
+                                    {data.price} L.E
+                                </span>
+                                {/* Add To Cart Button */}
+                                {/* <Button
+                                    textColor="text-white"
+                                    bgColor="bg-primary"
+                                    text="Add To Cart"
+                                    handler={clickBtn}
+                                /> */}
+                            </div>
                         </div>
                     </div>
                 ))}
