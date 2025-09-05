@@ -222,7 +222,7 @@ const Category2 = [
         subtitles: "Refreshing Drinks",
         title: 'Drinks',
         title2: 'Drinks',
-        image: "https://images.deliveryhero.io/image/talabat/Menuitems/mmw_638906301459130513?width=172&amp;height=172",
+        image: "./assets/sushi-image/cat-9-10.png",
         imageWidth: "w-[300px]",
         ImageWidth: 300,
         bgColorFrom: "from-purple-900",

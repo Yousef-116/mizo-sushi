@@ -507,9 +507,9 @@ const MenuData =[
 },
 {
   id: 57,
-  title: 'https://images.deliveryhero.io/image/talabat/Menuitems/%D8%B3%D9%85%D9%88%D9%83_%D9%88%D8%A7%D8%B3%D8%A7%D8%A8%D9%89638846844274663345.jpg?width=172&amp;height=172',
+  title: 'Smoke Wasabi Fried rolls',
   description: 'Cheese, smoke, avocado, and crab.',
-  image: './assets/menu/smoke-wasabi-fried.png',
+  image: 'https://images.deliveryhero.io/image/talabat/Menuitems/%D8%B3%D9%85%D9%88%D9%83_%D9%88%D8%A7%D8%B3%D8%A7%D8%A8%D9%89638846844274663345.jpg?width=172&amp;height=172',
   price: 130,
   delay: 200,
   category: 'Fried Rolls'
