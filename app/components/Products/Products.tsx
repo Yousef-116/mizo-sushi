@@ -88,7 +88,7 @@ const MenuData =[
   description: '4 Golden, 4 Crunchy Salmon, 4 Hot Crab.',
   image: 'https://images.deliveryhero.io/image/talabat/Menuitems/mmw_638874142030961630?width=172&amp;height=172',
   price: 350,
-  delay: 200,
+  delay: 100,
   category: 'Combos'
 },
 {
@@ -97,7 +97,7 @@ const MenuData =[
   description: '4 California, 4 Crispy, 4 Philadelphia, 4 Pink.',
   image: 'https://images.deliveryhero.io/image/talabat/Menuitems/mmw_638912910232136172?width=172&amp;height=172',
   price: 400,
-  delay: 200,
+  delay: 100,
   category: 'Combos'
 },
 {
@@ -106,7 +106,7 @@ const MenuData =[
   description: '4 Golden, 4 Spicy Lemon, 4 Hot Tumbura, 4 Crunchy Crab.',
   image: 'https://images.deliveryhero.io/image/talabat/Menuitems/mmw_638912911208796435?width=172&amp;height=172',
   price: 450,
-  delay: 200,
+  delay: 100,
   category: 'Combos'
 },
 {
@@ -115,7 +115,7 @@ const MenuData =[
   description: '4 Philadelphia, 4 California, 4 Crispy, 4 Pink, 4 New Style Philadelphia.',
   image: 'https://images.deliveryhero.io/image/talabat/Menuitems/mmw_638912910477566994?width=172&amp;height=172',
   price: 500,
-  delay: 200,
+  delay: 100,
   category: 'Combos'
 },
 {
@@ -124,7 +124,7 @@ const MenuData =[
   description: '5 Golden, 5 Spider, 5 Spicy Lemon, 5 Crunchy Crab.',
   image: 'https://images.deliveryhero.io/image/talabat/Menuitems/mmw_638912910908637909?width=172&amp;height=172',
   price: 550,
-  delay: 200,
+  delay: 100,
   category: 'Combos'
 },
 {
@@ -133,7 +133,7 @@ const MenuData =[
   description: '6 Hot Lemon, 6 Halloween, 4 Hot Crunchy, 4 California, 4 Spider, 4 Shily C, 4 New Style Philadelphia.',
   image: 'https://images.deliveryhero.io/image/talabat/Menuitems/mmw_638912916195694639?width=172&amp;height=172',
   price: 600,
-  delay: 200,
+  delay: 100,
   category: 'Combos'
 },
 {
@@ -142,7 +142,7 @@ const MenuData =[
   description: 'Smoked salmon and cheddar cheese.',
   image: 'https://images.deliveryhero.io/image/talabat/Menuitems/mmw_638917452850103050?width=172&amp;height=172',
   price: 100,
-  delay: 200,
+  delay: 100,
   category: 'Sushi Sandwich'
 },
 {
@@ -151,7 +151,7 @@ const MenuData =[
   description: 'Crab and cheddar cheese.',
   image: 'https://images.deliveryhero.io/image/talabat/Menuitems/mmw_638917454068961118?width=172&amp;height=172',
   price: 100,
-  delay: 200,
+  delay: 100,
   category: 'Sushi Sandwich'
 },
 {
@@ -160,7 +160,7 @@ const MenuData =[
   description: 'Shrimp and cheddar cheese.',
   image: 'https://images.deliveryhero.io/image/talabat/Menuitems/mmw_638917455326402529?width=172&amp;height=172',
   price: 100,
-  delay: 200,
+  delay: 100,
   category: 'Sushi Sandwich'
 },
 {
@@ -169,7 +169,7 @@ const MenuData =[
   description: 'Salmon and rice.',
   image: 'https://images.deliveryhero.io/image/talabat/Menuitems/mmw_638893374564549592?width=172&amp;height=172',
   price: 100,
-  delay: 200,
+  delay: 100,
   category: 'Junkan'
 },
 {
@@ -178,7 +178,7 @@ const MenuData =[
   description: 'Crab and rice.',
   image: 'https://images.deliveryhero.io/image/talabat/Menuitems/mmw_638893375482560711?width=172&amp;height=172',
   price: 80,
-  delay: 200,
+  delay: 100,
   category: 'Junkan'
 },
 {
@@ -187,7 +187,7 @@ const MenuData =[
   description: 'Shrimp and rice.',
   image: 'https://images.deliveryhero.io/image/talabat/Menuitems/mmw_638893376362583538?width=172&amp;height=172',
   price: 100,
-  delay: 200,
+  delay: 100,
   category: 'Junkan'
 },
 {
@@ -196,7 +196,7 @@ const MenuData =[
   description: 'Rice and eel.',
   image: 'https://images.deliveryhero.io/image/talabat/Menuitems/mmw_638894097999224111?width=172&amp;height=172',
   price: 100,
-  delay: 200,
+  delay: 100,
   category: 'Junkan'
 },
 {
@@ -205,7 +205,7 @@ const MenuData =[
   description: 'Eel, rice and cheese.',
   image: 'https://images.deliveryhero.io/image/talabat/Menuitems/mmw_638894094618561353?width=172&amp;height=172',
   price: 200,
-  delay: 200,
+  delay: 100,
   category: 'Rolls'
 },
 {
@@ -214,7 +214,7 @@ const MenuData =[
   description: 'Basa white fish, cheese and cucumber.',
   image: 'https://images.deliveryhero.io/image/talabat/Menuitems/mmw_638858855596857484?width=172&amp;height=172',
   price: 110,
-  delay: 200,
+  delay: 100,
   category: 'Rolls'
 },
 {
@@ -223,7 +223,7 @@ const MenuData =[
   description: 'Cucumber, avocado, and smoked with cheese topping.',
   image: 'https://images.deliveryhero.io/image/talabat/Menuitems/%D9%86%D9%8A%D9%88_%D8%B3%D8%AA%D8%A7%D9%8A%D9%84_%D9%81%D8%A7%D9%84%D8%AF%D9%8A%D9%81%D9%8A%D8%A7638846844274479604.jpg?width=172&amp;height=172',
   price: 120,
-  delay: 200,
+  delay: 100,
   category: 'Rolls'
 },
 {
@@ -232,7 +232,7 @@ const MenuData =[
   description: 'Crab, cucumber and avocado.',
   image: 'https://images.deliveryhero.io/image/talabat/Menuitems/%D9%83%D8%A7%D9%84%D9%8A%D9%81%D9%88%D8%B1%D9%86%D9%8A%D8%A7638846844273626496.jpg?width=172&amp;height=172',
   price: 120,
-  delay: 200,
+  delay: 100,
   category: 'Rolls'
 },
 {
@@ -241,7 +241,7 @@ const MenuData =[
   description: 'Avocado and Tempura Topping Crab Mayonnaise.',
   image: 'https://images.deliveryhero.io/image/talabat/Menuitems/%D8%A8%D9%8A%D9%86%D9%83638846844273614792.jpg?width=172&amp;height=172',
   price: 120,
-  delay: 200,
+  delay: 100,
   category: 'Rolls'
 },
 {
@@ -250,7 +250,7 @@ const MenuData =[
   description: 'Cheese, cucumber, shrimp topping, salmon and avocado',
   image: 'https://images.deliveryhero.io/image/talabat/Menuitems/%D8%B3%D9%85%D8%B1638846844278626599.jpg?width=172&amp;height=172',
   price: 120,
-  delay: 200,
+  delay: 100,
   category: 'Rolls'
 },
 {
@@ -259,7 +259,7 @@ const MenuData =[
   description: 'Tempura, arugula, topping, crab mayonnaise and rice crispy.',
   image: 'https://images.deliveryhero.io/image/talabat/Menuitems/%D8%B1%D9%88%D9%83%D8%AA638846844272477718.jpg?width=172&amp;height=172',
   price: 120,
-  delay: 200,
+  delay: 100,
   category: 'Rolls'
 },
 {
@@ -268,7 +268,7 @@ const MenuData =[
   description: 'Spicy Crab and Avocado Topping Spicy Crab.',
   image: 'https://images.deliveryhero.io/image/talabat/Menuitems/%D8%A7%D9%84%D8%A7%D8%B3%D9%83%D8%A7638846844277669457.jpg?width=172&amp;height=172',
   price: 120,
-  delay: 200,
+  delay: 100,
   category: 'Rolls'
 },
 {
@@ -277,7 +277,7 @@ const MenuData =[
   description: 'Cheese, cucumber, and avocado with a smoked slice.',
   image: 'https://images.deliveryhero.io/image/talabat/Menuitems/%D9%81%D9%8A%D9%84%D8%A7%D8%AF%D9%8A%D9%84%D9%81%D9%8A%D8%A7638846844276504053.jpg?width=172&amp;height=172',
   price: 120,
-  delay: 200,
+  delay: 100,
   category: 'Rolls'
 },
 {
@@ -286,7 +286,7 @@ const MenuData =[
   description: 'Smoked cheese and Tempura Topping Salmon.',
   image: 'https://images.deliveryhero.io/image/talabat/Menuitems/%D8%B3%D8%A7%D9%83%D9%8A_638846844272766178.jpg?width=172&amp;height=172',
   price: 120,
-  delay: 200,
+  delay: 100,
   category: 'Rolls'
 },
 {
@@ -295,7 +295,7 @@ const MenuData =[
   description: 'Fried salmon, tempura and avocado with geisha.',
   image: 'https://images.deliveryhero.io/image/talabat/Menuitems/%D9%81%D9%84%D8%A7%D9%88%D8%B1_638846844282431498.jpg?width=172&amp;height=172',
   price: 120,
-  delay: 200,
+  delay: 100,
   category: 'Rolls'
 },
 {
@@ -304,7 +304,7 @@ const MenuData =[
   description: 'Tempura and avocado with avocado topping.',
   image: 'https://images.deliveryhero.io/image/talabat/Menuitems/%D8%AF%D8%B1%D8%A7%D8%AC%D9%88%D9%86_638846844269731837.jpg?width=172&amp;height=172',
   price: 120,
-  delay: 200,
+  delay: 100,
   category: 'Rolls'
 },
 {
@@ -313,7 +313,7 @@ const MenuData =[
   description: 'Cheese, salmon and salmon topping.',
   image: 'https://images.deliveryhero.io/image/talabat/Menuitems/%D8%AF%D8%A7%D9%8A%D9%86%D8%A7%D9%85%D8%A7%DB%8C%D8%AA_%D8%B3%D8%A7%D9%84%D9%85%D9%88%D9%86638846844269504446.jpg?width=172&amp;height=172',
   price: 120,
-  delay: 200,
+  delay: 100,
   category: 'Rolls'
 },
 {
@@ -322,7 +322,7 @@ const MenuData =[
   description: 'Cheese, shrimp, and salmon topping.',
   image: 'https://images.deliveryhero.io/image/talabat/Menuitems/%D8%AF%D8%A7%DB%8C%D9%86%D8%A7%D9%85%D8%A7%DB%8C%D8%AA_%D8%B4%D8%B1%DB%8C%D9%85%D9%BE638846844272472925.jpg?width=172&amp;height=172',
   price: 120,
-  delay: 200,
+  delay: 100,
   category: 'Rolls'
 },
 {
@@ -331,7 +331,7 @@ const MenuData =[
   description: 'Cheese and tempura salmon topping.',
   image: 'https://images.deliveryhero.io/image/talabat/Menuitems/%D8%AF%D8%A7%DB%8C%D9%86%D8%A7_%D9%85%D8%A7%D9%8A%D8%AA_%D8%AA%D9%85%D8%A8%D9%88%D8%B1%D8%A9638846844277645401.jpg?width=172&amp;height=172',
   price: 120,
-  delay: 200,
+  delay: 100,
   category: 'Rolls'
 },
 {
@@ -340,7 +340,7 @@ const MenuData =[
   description: 'Cheese, tempura and avocado topping smoked.',
   image: 'https://images.deliveryhero.io/image/talabat/Menuitems/%D8%AF%D8%A7%D9%8A%D9%86%D8%A7%D9%85%D8%A7%D9%8A%D8%AA_%D8%B3%D9%85%D9%88%D9%83638846844264462540.jpg?width=172&amp;height=172',
   price: 120,
-  delay: 200,
+  delay: 100,
   category: 'Rolls'
 },
 {
@@ -349,7 +349,7 @@ const MenuData =[
   description: 'Avocado and tempura topping smoked.',
   image: 'https://images.deliveryhero.io/image/talabat/Menuitems/%D8%B3%D9%85%D9%88%D9%83_%D8%A8%D8%B1%D9%8A%D9%85%D9%8A%D9%88%D8%AF%D8%A7638846844276499464.jpg?width=172&amp;height=172',
   price: 120,
-  delay: 200,
+  delay: 100,
   category: 'Rolls'
 },
 {
@@ -358,7 +358,7 @@ const MenuData =[
   description: 'Tempura and avocado.',
   image: 'https://images.deliveryhero.io/image/talabat/Menuitems/%D9%83%D8%B1%D9%8A%D8%B3%D8%A8%D9%8A638846844283445271.jpg?width=172&amp;height=172',
   price: 120,
-  delay: 200,
+  delay: 100,
   category: 'Rolls'
 },
 {
@@ -367,7 +367,7 @@ const MenuData =[
   description: 'Smoked fried avocado topping geisha with crab mayonnaise.',
   image: 'https://images.deliveryhero.io/image/talabat/Menuitems/%D8%AC%D9%8A%D8%B4%D8%A7_%D8%A8%D8%B1%D9%8A%D9%85%D9%8A%D9%88%D8%A7%D8%AF638846844282471836.jpg?width=172&amp;height=172',
   price: 120,
-  delay: 200,
+  delay: 100,
   category: 'Rolls'
 },
 {
@@ -376,7 +376,7 @@ const MenuData =[
   description: 'Rice and salmon.',
   image: 'https://images.deliveryhero.io/image/talabat/Menuitems/Hoso_Salmon638846845052746194.jpg?width=172&amp;height=172',
   price: 120,
-  delay: 200,
+  delay: 100,
   category: 'Rolls'
 },
 {
@@ -385,7 +385,7 @@ const MenuData =[
   description: 'Rice and crab.',
   image: 'https://images.deliveryhero.io/image/talabat/Menuitems/%D9%87%D9%88%D8%B3%D9%88_%D9%88_%D9%83%D8%B1%D8%A7%D8%A8638846844280638232.jpg?width=172&amp;height=172',
   price: 120,
-  delay: 200,
+  delay: 100,
   category: 'Rolls'
 },
 {
@@ -394,7 +394,7 @@ const MenuData =[
   description: 'Rice and fried shrimp.',
   image: 'https://images.deliveryhero.io/image/talabat/Menuitems/%D9%87%D9%88%D8%B3%D9%88_%D8%AA%D9%85%D8%A8%D9%88%D8%B1%D8%A9638846844275516313.jpg?width=172&amp;height=172',
   price: 120,
-  delay: 200,
+  delay: 100,
   category: 'Rolls'
 },
 {
@@ -403,7 +403,7 @@ const MenuData =[
   description: 'Cheese and salmon.',
   image: 'https://images.deliveryhero.io/image/talabat/Menuitems/mmw_638851925031521098?width=172&amp;height=172',
   price: 120,
-  delay: 200,
+  delay: 100,
   category: 'Fried Rolls'
 },
 {
@@ -412,7 +412,7 @@ const MenuData =[
   description: 'Pangasius white fish, kiri cheese, cucumber.',
   image: 'https://images.deliveryhero.io/image/talabat/Menuitems/mmw_638858857861885429?width=172&amp;height=172',
   price: 110,
-  delay: 200,
+  delay: 100,
   category: 'Fried Rolls'
 },
 {
@@ -421,7 +421,7 @@ const MenuData =[
   description: 'Cheese and tempura.',
   image: 'https://images.deliveryhero.io/image/talabat/Menuitems/%D9%87%D9%88%D8%AA_%D8%AA%D8%A7%D9%85%D8%A8%D9%88%D8%B1%D8%A9638846844283439084.jpg?width=172&amp;height=172',
   price: 120,
-  delay: 200,
+  delay: 100,
   category: 'Fried Rolls'
 },
 {
@@ -430,7 +430,7 @@ const MenuData =[
   description: 'Cheese and tempura in war2et spring.',
   image: 'https://images.deliveryhero.io/image/talabat/Menuitems/%D9%83%D8%B1%D8%A7%D9%86%D8%B4%D9%89_%D8%AA%D8%A7%D9%85%D8%A8%D9%88%D8%B1%D8%A9638846844282531276.jpg?width=172&amp;height=172',
   price: 120,
-  delay: 200,
+  delay: 100,
   category: 'Fried Rolls'
 },
 {
@@ -439,7 +439,7 @@ const MenuData =[
   description: 'Cheese and salmon in war2et spring.',
   image: 'https://images.deliveryhero.io/image/talabat/Menuitems/%D9%83%D8%B1%D8%A7%D9%86%D8%B4%D9%8A_%D8%B3%D8%A7%D9%84%D9%85%D9%88%D9%86638846844281634478.jpg?width=172&amp;height=172',
   price: 120,
-  delay: 200,
+  delay: 100,
   category: 'Fried Rolls'
 },
 {
@@ -448,7 +448,7 @@ const MenuData =[
   description: 'Cheese and crab in war2et spring.',
   image: 'https://images.deliveryhero.io/image/talabat/Menuitems/%D9%83%D8%B1%D8%A7%D9%86%D8%B4%D9%89_%D9%83%D8%B1%D8%A7%D8%A8638846844277778131.jpg?width=172&amp;height=172',
   price: 120,
-  delay: 200,
+  delay: 100,
   category: 'Fried Rolls'
 },
 {
@@ -457,7 +457,7 @@ const MenuData =[
   description: 'Cheese, crab and tempura.',
   image: 'https://images.deliveryhero.io/image/talabat/Menuitems/mmw_638851925857418652?width=172&amp;height=172',
   price: 120,
-  delay: 200,
+  delay: 100,
   category: 'Fried Rolls'
 },
 {
@@ -466,7 +466,7 @@ const MenuData =[
   description: 'Cheese, salmon and tempura.',
   image: 'https://images.deliveryhero.io/image/talabat/Menuitems/mmw_638851927509357985?width=172&amp;height=172',
   price: 120,
-  delay: 200,
+  delay: 100,
   category: 'Fried Rolls'
 },
 {
@@ -475,7 +475,7 @@ const MenuData =[
   description: 'Fried salmon and tempura.',
   image: 'https://images.deliveryhero.io/image/talabat/Menuitems/mmw_638851937523863482?width=172&amp;height=172',
   price: 120,
-  delay: 200,
+  delay: 100,
   category: 'Fried Rolls'
 },
 {
@@ -484,7 +484,7 @@ const MenuData =[
   description: 'Cheese, crab, salmon and tempura.',
   image: 'https://images.deliveryhero.io/image/talabat/Menuitems/mmw_638851929029276210?width=172&amp;height=172',
   price: 130,
-  delay: 200,
+  delay: 100,
   category: 'Fried Rolls'
 },
 {
@@ -493,7 +493,7 @@ const MenuData =[
   description: 'Cheese, tempura, and smoked slice.',
   image: 'https://images.deliveryhero.io/image/talabat/Menuitems/%D8%AF%D8%A7%D9%84%D8%A7%D8%B3638846844281590798.jpg?width=172&amp;height=172',
   price: 120,
-  delay: 200,
+  delay: 100,
   category: 'Fried Rolls'
 },
 {
@@ -502,7 +502,7 @@ const MenuData =[
   description: 'Fried salmon and green onion.',
   image: 'https://images.deliveryhero.io/image/talabat/Menuitems/mmw_638852743620725887?width=172&amp;height=172',
   price: 120,
-  delay: 200,
+  delay: 100,
   category: 'Fried Rolls'
 },
 {
@@ -511,7 +511,7 @@ const MenuData =[
   description: 'Cheese, smoke, avocado, and crab.',
   image: 'https://images.deliveryhero.io/image/talabat/Menuitems/%D8%B3%D9%85%D9%88%D9%83_%D9%88%D8%A7%D8%B3%D8%A7%D8%A8%D9%89638846844274663345.jpg?width=172&amp;height=172',
   price: 130,
-  delay: 200,
+  delay: 100,
   category: 'Fried Rolls'
 },
 {
@@ -520,7 +520,7 @@ const MenuData =[
   description: 'Cheese, crab, and salmon.',
   image: 'https://images.deliveryhero.io/image/talabat/Menuitems/mmw_638850791900501790?width=172&amp;height=172',
   price: 120,
-  delay: 200,
+  delay: 100,
   category: 'Fried Rolls'
 },
 {
@@ -529,7 +529,7 @@ const MenuData =[
   description: 'Tempura and mozzarella cheese topping.',
   image: 'https://images.deliveryhero.io/image/talabat/Menuitems/mmw_638851930548576129?width=172&amp;height=172',
   price: 120,
-  delay: 200,
+  delay: 100,
   category: 'Fried Rolls'
 },
 
@@ -539,7 +539,7 @@ const MenuData =[
   description: 'Teriyaki sauce with sesame.',
   image: 'https://images.deliveryhero.io/image/talabat/Menuitems/mmw_638863180723293609?width=172&amp;height=172',
   price: 25,
-  delay: 200,
+  delay: 100,
   category: 'Sauces'
 },
 {
@@ -548,7 +548,7 @@ const MenuData =[
   description: 'Siratsha with mayo.',
   image: 'https://images.deliveryhero.io/image/talabat/Menuitems/mmw_638863181355322605?width=172&amp;height=172',
   price: 25,
-  delay: 200,
+  delay: 100,
   category: 'Sauces'
 },
 {
@@ -557,7 +557,7 @@ const MenuData =[
   description: 'Ginger pickle spicy.',
   image: 'https://images.deliveryhero.io/image/talabat/Menuitems/mmw_638863182386927675?width=172&amp;height=172',
   price: 25,
-  delay: 200,
+  delay: 100,
   category: 'Sauces'
 },
 {
@@ -566,7 +566,7 @@ const MenuData =[
   description: 'Spicy wasabi.',
   image: 'https://images.deliveryhero.io/image/talabat/Menuitems/mmw_638863182922805448?width=172&amp;height=172',
   price: 25,
-  delay: 200,
+  delay: 100,
   category: 'Sauces'
 },
 {
@@ -575,7 +575,7 @@ const MenuData =[
   description: 'Sauce soya.',
   image: 'https://images.deliveryhero.io/image/talabat/Menuitems/mmw_638869024421444449?width=172&amp;height=172',
   price: 25,
-  delay: 200,
+  delay: 100,
   category: 'Sauces'
 },
 {
@@ -584,7 +584,7 @@ const MenuData =[
   description: 'Pasta and vegetables.',
   image: 'https://images.deliveryhero.io/image/talabat/Menuitems/%D9%86%D9%88%D8%AF%D9%84%D8%B2638846844280744612.jpg?width=172&amp;height=172',
   price: 110,
-  delay: 200,
+  delay: 100,
   category: 'Noodles'
 },
 {
@@ -593,7 +593,7 @@ const MenuData =[
   description: 'Noodles and meat pasta.',
   image: 'https://images.deliveryhero.io/image/talabat/Menuitems/mmw_638851934160957659?width=172&amp;height=172',
   price: 190,
-  delay: 200,
+  delay: 100,
   category: 'Noodles'
 },
 {
@@ -602,7 +602,7 @@ const MenuData =[
   description: 'Pasta and shrimp.',
   image: 'https://images.deliveryhero.io/image/talabat/Menuitems/%D9%86%D9%88%D8%AF%D9%84%D8%B2_%D8%B3%DB%8C638846844267633895.jpg?width=172&amp;height=172',
   price: 200,
-  delay: 200,
+  delay: 100,
   category: 'Noodles'
 },
 {
@@ -611,7 +611,7 @@ const MenuData =[
   description: 'Rice and salmon.',
   image: 'https://images.deliveryhero.io/image/talabat/Menuitems/mmw_638863172594007259?width=172&amp;height=172',
   price: 50,
-  delay: 200,
+  delay: 100,
   category: 'Nigiri'
 },
 {
@@ -620,7 +620,7 @@ const MenuData =[
   description: 'Rice and large shrimp.',
   image: 'https://images.deliveryhero.io/image/talabat/Menuitems/mmw_638866632840536882?width=172&amp;height=172',
   price: 50,
-  delay: 200,
+  delay: 100,
   category: 'Nigiri'
 },
 {
@@ -629,7 +629,7 @@ const MenuData =[
   description: 'Rice and crab.',
   image: 'https://images.deliveryhero.io/image/talabat/Menuitems/mmw_638866633795106160?width=172&amp;height=172',
   price: 50,
-  delay: 200,
+  delay: 100,
   category: 'Nigiri'
 },
 {
@@ -638,7 +638,7 @@ const MenuData =[
   description: 'Cucumber, carrot, crab and mayonnaise.',
   image: "./assets/sushi-image/cat-7-8.png",
   price: 130,
-  delay: 200,
+  delay: 100,
   category: 'Salad'
 },
 {
@@ -647,7 +647,7 @@ const MenuData =[
   description: 'Cola drink.',
   image: 'https://images.deliveryhero.io/image/talabat/Menuitems/mmw_638906301459130513?width=172&amp;height=172',
   price: 30,
-  delay: 200,
+  delay: 100,
   category: 'Drinks'
 },
 {
@@ -656,7 +656,7 @@ const MenuData =[
   description: 'Cola diet drink.',
   image: 'https://images.deliveryhero.io/image/talabat/Menuitems/mmw_638906303762509226?width=172&amp;height=172',
   price: 30,
-  delay: 200,
+  delay: 100,
   category: 'Drinks'
 },
 
@@ -714,7 +714,7 @@ const Products = () => {
                                 {data.description}
                             </p>
                             <div className="flex items-center justify-between">
-                                <span className="text-md font-bold text-primary-light">
+                                <span className="text-md font-bold text-white">
                                     {data.price} L.E
                                 </span>
                                 {/* Add To Cart Button */}
