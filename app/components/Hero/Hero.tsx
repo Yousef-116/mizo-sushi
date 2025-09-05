@@ -12,7 +12,7 @@ const HeroData = [
         subtitles: "Fresh & Delicious",
         title: 'Sushi',
         title2: 'ROLLS',
-        image: "./assets/sushi/vecteezy_a-neatly-arranged-stack-of-sushi-resting-on-a-plate-isolated_48558064.png",
+        image: "./assets/sushi-image/Hero-1.png",
         description: 'Experience authentic Japanese sushi made with the freshest ingredients.',
     },
     {
@@ -20,7 +20,7 @@ const HeroData = [
         subtitles: "Warm & Comforting",
         title: 'Noodles',
         title2: 'BOWLS',
-        image: './assets/sushi/vecteezy_ai-generated-plate-of-noodles-png-isolated-on-transparent_38034333.png',
+        image: "./assets/sushi-image/Hero-4-10.png",
         description: 'Enjoy our savory noodle bowls, perfect for any time of the day.',
     },
     {
@@ -28,7 +28,7 @@ const HeroData = [
         subtitles: "Sweet Treats",
         title: 'Cupcakes',
         title2: 'DESSERTS',
-        image: './assets/sushi/vecteezy_ai-generated-chocolate-cupcake-with-chocolate-frosting-on_41933414.png',
+        image: "./assets/sushi-image/Hero-3.png",
         description: 'Indulge in our delightful cupcakes, baked fresh daily.',
     }
 ]

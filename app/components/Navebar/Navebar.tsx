@@ -21,7 +21,7 @@ const Navbar: React.FC<NavebarProps> = ({ openForm }) => {
                             md:text-3xl pr-7'>Mizo Sushi</a> */}
                             <Image 
                              width={80} height={60} 
-                            src="./assets/sushi/sushi-logo.png" alt="mizo sushi logo"
+                            src="./assets/sushi-image/sushi-logo-15.png" alt="mizo sushi logo"
                                                             className='  ' />
 
                         </div>

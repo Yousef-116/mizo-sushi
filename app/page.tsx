@@ -60,9 +60,9 @@ export default function Home() {
       <Hero />
       <Category />
       <Services />
-      <Banner propdata={BannerData[0]} />
+      {/* <Banner propdata={BannerData[0]} /> */}
       <Products />
-      <Banner propdata={BannerData[1]} />
+      {/* <Banner propdata={BannerData[1]} /> */}
       {/* <Blogs />  */}
       {/* <Partners />  */}
       <Footer />
