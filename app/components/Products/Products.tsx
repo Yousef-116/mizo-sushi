@@ -3,83 +3,83 @@ import React from 'react'
 import Image from 'next/image'
 
 
-const ProductsData = [
-    {
-        id: 1,
-        title: 'Product 1',
-        description: 'Experience authentic Japanese sushi made with the freshest ingredients.',
-        image: "./assets/sushi/—Pngtree—high-resolution image of authentic japanese_20616796.png",
-        price: 100,
-        delay: 200
-    },
-    {
-        id: 2,
-        title: 'Product 2',
-        description: 'Experience authentic Japanese sushi made with the freshest ingredients.',
-        image: "./assets/sushi/pngwing.com (2).png",
-        price: 150,
-        delay: 300
-    },
-    {
-        id: 3,
-        title: 'Product 3',
-        description: 'Experience authentic Japanese sushi made with the freshest ingredients.',
-        image: "./assets/sushi/pngwing.com (5).png",
-        price: 200,
-        delay: 400
-    },
-    {
-        id: 4,
-        title: 'Product 4',
-        image: "./assets/sushi/vecteezy_ai-generated-salmon-sushi-png_35675762.png",
-        price: 250,
-        delay: 500
-    },
-    {
-        id: 5,
-        title: 'Product 5',
-        image: "./assets/sushi/vecteezy_temaki-with_26758545.png",
-        price: 300,
-        delay: 200
-    },
-    {
-        id: 6,
-        title: 'Product 6',
-        image: "./assets/sushi/vecteezy_shrimp-noodles-with-garnish-in-a-bowl_51015227.png",
-        price: 350,
-        delay: 300
-    },
-    {
-        id: 7,
-        title: 'Product 7',
-        image: "./assets/sushi/vecteezy_a-bowl-of-noodles-with-chicken-and-peppers_69375942.png",
-        price: 400,
-        delay: 400
-    },
-    {
-        id: 8,
-        title: 'Product 8',
-        image: "./assets/sushi/vecteezy_fudgy-chocolate-cupcake-with-fluffy-peanut-butter-topping_57672967.png",
-        price: 500,
-        delay: 500
-    }
-    ,
-    {
-        id: 9,
-        title: 'Product 8',
-        image: "./assets/sushi/vecteezy_appetizing-peruvian-ceviche-with-fish-lime-and-herbs_52242036.png",
-        price: 500,
-        delay: 500
-    }
-    ,
-    {
-        id: 10,
-        title: 'Product 8',
-        image: "./assets/sushi/vecteezy_chocolate-lava-cake-with_25064819.png",
-        price: 500,
-        delay: 500
-    }
-]
+// const ProductsData = [
+//     {
+//         id: 1,
+//         title: 'Product 1',
+//         description: 'Experience authentic Japanese sushi made with the freshest ingredients.',
+//         image: "./assets/sushi/—Pngtree—high-resolution image of authentic japanese_20616796.png",
+//         price: 100,
+//         delay: 200
+//     },
+//     {
+//         id: 2,
+//         title: 'Product 2',
+//         description: 'Experience authentic Japanese sushi made with the freshest ingredients.',
+//         image: "./assets/sushi/pngwing.com (2).png",
+//         price: 150,
+//         delay: 300
+//     },
+//     {
+//         id: 3,
+//         title: 'Product 3',
+//         description: 'Experience authentic Japanese sushi made with the freshest ingredients.',
+//         image: "./assets/sushi/pngwing.com (5).png",
+//         price: 200,
+//         delay: 400
+//     },
+//     {
+//         id: 4,
+//         title: 'Product 4',
+//         image: "./assets/sushi/vecteezy_ai-generated-salmon-sushi-png_35675762.png",
+//         price: 250,
+//         delay: 500
+//     },
+//     {
+//         id: 5,
+//         title: 'Product 5',
+//         image: "./assets/sushi/vecteezy_temaki-with_26758545.png",
+//         price: 300,
+//         delay: 200
+//     },
+//     {
+//         id: 6,
+//         title: 'Product 6',
+//         image: "./assets/sushi/vecteezy_shrimp-noodles-with-garnish-in-a-bowl_51015227.png",
+//         price: 350,
+//         delay: 300
+//     },
+//     {
+//         id: 7,
+//         title: 'Product 7',
+//         image: "./assets/sushi/vecteezy_a-bowl-of-noodles-with-chicken-and-peppers_69375942.png",
+//         price: 400,
+//         delay: 400
+//     },
+//     {
+//         id: 8,
+//         title: 'Product 8',
+//         image: "./assets/sushi/vecteezy_fudgy-chocolate-cupcake-with-fluffy-peanut-butter-topping_57672967.png",
+//         price: 500,
+//         delay: 500
+//     }
+//     ,
+//     {
+//         id: 9,
+//         title: 'Product 8',
+//         image: "./assets/sushi/vecteezy_appetizing-peruvian-ceviche-with-fish-lime-and-herbs_52242036.png",
+//         price: 500,
+//         delay: 500
+//     }
+//     ,
+//     {
+//         id: 10,
+//         title: 'Product 8',
+//         image: "./assets/sushi/vecteezy_chocolate-lava-cake-with_25064819.png",
+//         price: 500,
+//         delay: 500
+//     }
+// ]
 
 const MenuData =[
     {
