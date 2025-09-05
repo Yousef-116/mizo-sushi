@@ -664,9 +664,9 @@ const MenuData =[
 const Products = () => {
 
 
-    function clickBtn() {
-        console.log('clicked')
-    }
+    // function clickBtn() {
+    //     console.log('clicked')
+    // }
 
     return (
         <div className='container pb-20'>

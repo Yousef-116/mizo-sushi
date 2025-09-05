@@ -56,7 +56,7 @@ export default function Home() {
 
   return (
     <div className="bg-[#010101] dark:bg-gray-900 w-full relative">
-      <Navebar openForm={togglePopup} />
+      <Navebar />
       <Hero />
       <Category />
       <Services />

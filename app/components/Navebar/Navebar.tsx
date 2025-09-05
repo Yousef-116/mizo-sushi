@@ -1,15 +1,15 @@
 "use client";
 import React from 'react';
-import { CiSearch, CiShoppingCart } from "react-icons/ci";
+//import { CiSearch, CiShoppingCart } from "react-icons/ci";
 //import { FaAngleDown } from "react-icons/fa";
 import Image from 'next/image'
 // import DarkMode from './DarkMode';
 
-interface NavebarProps {
-    openForm: () => void;
-}
+// interface NavebarProps {
+//     openForm: () => void;
+// }
 
-const Navbar: React.FC<NavebarProps> = ({ openForm }) => {
+const Navbar = () => {
     return (
         <div className='bg-[#010101] dark:bg-gray-900 dark:text-white duration-200 z-40 w-full'>
             <div className='py-5'>
@@ -47,7 +47,7 @@ const Navbar: React.FC<NavebarProps> = ({ openForm }) => {
                     {/* nav right */}
                     <div className='flex items-center gap-5'>
                         <div className='hidden sm:flex relative group items-center'>
-                            <input
+                            {/* <input
                                 type="text"
                                 placeholder='Search'
                                 className='search-bar focus:border-1 bg-[#010101] text-white
@@ -55,7 +55,7 @@ const Navbar: React.FC<NavebarProps> = ({ openForm }) => {
                             />
                             <CiSearch className='text-2xl text-gray-300 absolute 
                             top-1/2 -translate-y-1/2 right-3 duration-200 
-                            cursor-pointer hover:text-primary' />
+                            cursor-pointer hover:text-primary' /> */}
                         </div>
                         {/* <div className='relative mt-1'>
                             <button onClick={openForm}>
