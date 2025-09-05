@@ -38,7 +38,7 @@ import Navebar from './components/Navebar/Navebar';
 // ];
 
 export default function Home() {
-  const [isPopupVisible, setIsPopupVisible] = useState(false);
+  //const [isPopupVisible, setIsPopupVisible] = useState(false);
 
   // const togglePopup = () => {
   //   setIsPopupVisible(!isPopupVisible);
