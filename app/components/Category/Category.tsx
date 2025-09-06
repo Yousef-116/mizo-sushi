@@ -1,5 +1,5 @@
 import React from 'react'
-import Button from '../Shared/Button'
+//import Button from '../Shared/Button'
 import Image from 'next/image'
 
 // const CategoryData = [
@@ -234,9 +234,9 @@ const Category2 = [
     }
 ]
 const Category = () => {
-    function clickBtn() {
-        console.log('clicked')
-    }
+    // function clickBtn() {
+    //     console.log('clicked')
+    // }
     return (
 
 
@@ -277,11 +277,12 @@ const Category = () => {
                                     md:text-2xl 
                                     xl:text-5xl
                                      z-10'>{data.title2}</h1>
-                            <div><Button
+                            <div>
+                                {/* <Button
                                 textColor={`${data.btnTextColor}`}
                                 bgColor={`${data.btnbgColor}`}
                                 text='Browse'
-                                handler={clickBtn} />
+                                handler={clickBtn} /> */}
                             </div>
 
                         </div>

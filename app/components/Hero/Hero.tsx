@@ -5,7 +5,7 @@ import Slider from 'react-slick'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Image from 'next/image';
-import Button from '../Shared/Button';
+//import Button from '../Shared/Button';
 const HeroData = [
     {
         id: 1,
@@ -97,12 +97,12 @@ const Hero = () => {
                                     md:text-[90px] xl:text-[150px]
                                      z-10 py-3'>{data.title2}</h1>
                                     <div data-aos="zoom-out" className='my-5'>
-                                        <Button
+                                        {/* <Button
 
                                             textColor='text-white'
                                             bgColor='bg-primary'
                                             text='Shop Now'
-                                            handler={clickBtn} />
+                                            handler={clickBtn} /> */}
                                     </div>
                                 </div>
                                 {/* img section */}
