@@ -9,7 +9,12 @@ import Image from 'next/image'
 //     openForm: () => void;
 // }
 
-const Navbar = () => {
+interface NavbarProps {
+    onMenuClick: () => void;
+    onAboutClick: () => void;
+}
+
+const Navbar: React.FC<NavbarProps> = ({ onMenuClick, onAboutClick }) => {
     return (
         <div className='bg-[#010101] dark:bg-gray-900 dark:text-white duration-200 z-40 w-full'>
             <div className='py-5'>
@@ -19,17 +24,25 @@ const Navbar = () => {
                         <div>
                             {/* <a href="#" className='text-primary font-semibold tracking-widest text-2xl  
                             md:text-3xl pr-7'>Mizo Sushi</a> */}
-                            <Image 
-                             width={80} height={60} 
-                            src="./assets/sushi-image/sushi-logo-15.png" alt="mizo sushi logo"
-                                                            className='  ' />
+                            <Image
+                                width={80} height={60}
+                                src="./assets/sushi-image/sushi-logo-15.png" alt="mizo sushi logo"
+                                className='  ' />
 
                         </div>
                         {/* Menu Items */}
                         <div className='hidden lg:flex gap-10 text-gray-500 font-semibold text-md items-center ml-10'>
                             <a className='duration-200 hover:text-black dark:hover:text-white' href="#">Home</a>
-                            <a className='duration-200 hover:text-black dark:hover:text-white' href="#">Shop</a>
-                            <a className='duration-200 hover:text-black dark:hover:text-white' href="#">About</a>
+                            <a
+                                className='duration-200 hover:text-black dark:hover:text-white'
+                                href="#"
+                                onClick={onMenuClick}
+                            >
+                                Menu
+                            </a>
+                            <a className='duration-200 hover:text-black dark:hover:text-white'
+                                href="#"
+                                onClick={onAboutClick}>About</a>
                             {/* <a className='duration-200 hover:text-black dark:hover:text-white' href="#">Blogs</a> */}
                             {/* drop down list */}
                             {/* <div className='relative group hidden xl:block'>

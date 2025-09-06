@@ -165,39 +165,39 @@ const MenuData =[
 },
 {
   id: 20,
-  title: 'Junkan Salmon',
+  title: 'gunkan Salmon',
   description: 'Salmon and rice.',
   image: 'https://images.deliveryhero.io/image/talabat/Menuitems/mmw_638893374564549592?width=172&amp;height=172',
   price: 100,
   delay: 100,
-  category: 'Junkan'
+  category: 'gunkan'
 },
 {
   id: 21,
-  title: 'Junkan Crab',
+  title: 'gunkan Crab',
   description: 'Crab and rice.',
   image: 'https://images.deliveryhero.io/image/talabat/Menuitems/mmw_638893375482560711?width=172&amp;height=172',
   price: 80,
   delay: 100,
-  category: 'Junkan'
+  category: 'gunkan'
 },
 {
   id: 22,
-  title: 'Junkan Shrimp',
+  title: 'gunkan Shrimp',
   description: 'Shrimp and rice.',
   image: 'https://images.deliveryhero.io/image/talabat/Menuitems/mmw_638893376362583538?width=172&amp;height=172',
   price: 100,
   delay: 100,
-  category: 'Junkan'
+  category: 'gunkan'
 },
 {
   id: 23,
-  title: 'Onagy Junkan',
+  title: 'Onagy gunkan',
   description: 'Rice and eel.',
   image: 'https://images.deliveryhero.io/image/talabat/Menuitems/mmw_638894097999224111?width=172&amp;height=172',
   price: 100,
   delay: 100,
-  category: 'Junkan'
+  category: 'gunkan'
 },
 {
   id: 24,

@@ -54,22 +54,42 @@ export default function Home() {
     AOS.refresh();
   }, []);
 
+  // Create a ref for the Products section
+  const productsRef = React.useRef<HTMLDivElement>(null);
+  const AboutRef = React.useRef<HTMLDivElement>(null);
+
+  // Pass a scroll handler to the Navbar
+  const handleMenuClick = () => {
+    productsRef.current?.scrollIntoView({ behavior: "smooth" });
+  };
+
+  const handleAboutClick = () => {
+    AboutRef.current?.scrollIntoView({ behavior: "smooth" });
+  };
+
+
   return (
     <div className="bg-[#010101] dark:bg-gray-900 w-full relative">
-      <Navebar />
+      <Navebar onMenuClick={handleMenuClick} onAboutClick={handleAboutClick} />
       <Hero />
       <Category />
       <Services />
       {/* <Banner propdata={BannerData[0]} /> */}
-      <Products />
+      {/* Attach the ref to the Products section */}
+      <div ref={productsRef}>
+        <Products />
+      </div>
       {/* <Banner propdata={BannerData[1]} /> */}
       {/* <Blogs />  */}
       {/* <Partners />  */}
+      <div ref={AboutRef}>
       <Footer />
+      </div>
       {/* <Popup
         isVisible={isPopupVisible}
         onClose={togglePopup}
       />  */}
     </div>
   );
+  
 }

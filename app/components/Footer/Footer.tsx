@@ -1,5 +1,5 @@
 import React from 'react'
-import Button from '../Shared/Button'
+//import Button from '../Shared/Button'
 import { IoIosSend } from "react-icons/io";
 import { CiMobile1 } from "react-icons/ci";
 import { FaFacebook } from "react-icons/fa";
@@ -8,9 +8,9 @@ import { FaWhatsapp } from 'react-icons/fa6';
 
 
 const Footer = () => {
-    function clickBtn() {
-        console.log('clicked')
-    }
+    // function clickBtn() {
+    //     console.log('clicked')
+    // }
     return (
         <div className='container pb-36 mt-20'>
             <div className='grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-10' >
@@ -27,12 +27,12 @@ const Footer = () => {
                     <p className='text-white' >
                         Made with 💖 by The Yousef Mostafa
                     </p>
-                    <Button
+                    {/* <Button
                         textColor='text-white'
                         bgColor='bg-primary'
                         text='Visit our YouTubee Channel'
                         handler={clickBtn}
-                    />
+                    /> */}
                 </div>
                 {/* col 2 */}
                 <div className='flex flex-col gap-3 text-white'>
@@ -73,23 +73,38 @@ const Footer = () => {
                         Address</h3>
                     <div className='flex items-center w-full gap-2 text-white'>
                         <IoIosSend className='w-1/3 max-h-4 max-w-4 ' />
-                        <p>Egypt , Elqalupia-Elkhanka</p>
+                        <p>Egypt , Ashraf Hafez-Hadayek elMaadi</p>
                     </div>
 
                     <div className='flex items-center w-full gap-2 text-white'>
                         <CiMobile1 className='w-1/3 max-h-4 max-w-4 ' />
-                        <p>+02 1153610783</p>
+                        <p>+2 01105092045</p>
                     </div>
 
-                    <div className='flex  gap-4'>
-                        <FaInstagram className='w-7 h-7 text-white
-                        hover:text-primary hover:text-primary duration-500 transition-all' />
-                        <FaFacebook className='w-7 h-7 text-white
-                         hover:text-brandBlue hover:text-primary duration-500 transition-all' />
-                        <FaWhatsapp className='w-7 h-7 text-white
-                         hover:text-brandGreen hover:text-primary duration-500 transition-all' />
+                    <div className='flex gap-4'>
+                        <a
+                            href="https://www.instagram.com/mizo.sushi?igsh=MWhtenp6M3FxY3lsYw=="
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <FaInstagram className='w-7 h-7 text-white hover:text-primary duration-500 transition-all' />
+                        </a>
+                        <a
+                            href="https://www.facebook.com/share/17PDRxYzau/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <FaFacebook className='w-7 h-7 text-white hover:text-brandBlue duration-500 transition-all' />
+                        </a>
+                        <a
+                            href="https://wa.me/+201105092045"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <FaWhatsapp className='w-7 h-7 text-white hover:text-brandGreen duration-500 transition-all' />
+                        </a>
+                    
                     </div>
-
                 </div>
 
             </div>
