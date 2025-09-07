@@ -49,9 +49,9 @@ const Hero = () => {
         pauseOnFocus: true,
     };
 
-    function clickBtn() {
-        console.log('clicked')
-    }
+    // function clickBtn() {
+    //     console.log('clicked')
+    // }
     return (
         <div>
             <div
