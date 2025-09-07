@@ -25,6 +25,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        {/* <link rel="icon" href="/favicon.ico" /> */}
+        {/* You can use PNG, SVG, or other formats if you prefer: */}
+        <link rel="icon" type="image/png" href="./assets/sushi-image/sushi-logo-15.png" />
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
