@@ -25,24 +25,28 @@ const Navbar: React.FC<NavbarProps> = ({ onMenuClick, onAboutClick }) => {
                             {/* <a href="#" className='text-primary font-semibold tracking-widest text-2xl  
                             md:text-3xl pr-7'>Mizo Sushi</a> */}
                             <Image
-                                width={80} height={60}
-                                src="./assets/sushi-image/sushi-logo-15.png" alt="mizo sushi logo"
+                                width={100} height={75}
+                                src="./assets/sushi-image/IMG_2015.png" alt="mizo sushi logo"
                                 className='  ' />
-
                         </div>
                         {/* Menu Items */}
-                        <div className='hidden lg:flex gap-10 text-gray-500 font-semibold text-md items-center ml-10'>
-                            <a className='duration-200 hover:text-black dark:hover:text-white' href="#">Home</a>
+                        <div className='flex gap-6 text-gray-500 font-semibold text-md items-center ml-5 sm:ml-0'>
+                            <a className='duration-200 hover:text-white dark:hover:text-white' href="#">Home</a>
                             <a
-                                className='duration-200 hover:text-black dark:hover:text-white'
+                                className='duration-200 hover:text-white dark:hover:text-white'
                                 href="#"
                                 onClick={onMenuClick}
                             >
                                 Menu
                             </a>
-                            <a className='duration-200 hover:text-black dark:hover:text-white'
+                            <a
+                                className='duration-200 hover:text-white dark:hover:text-white'
                                 href="#"
-                                onClick={onAboutClick}>About</a>
+                                onClick={onAboutClick}
+                            >
+                                About
+                            </a>
+                        
                             {/* <a className='duration-200 hover:text-black dark:hover:text-white' href="#">Blogs</a> */}
                             {/* drop down list */}
                             {/* <div className='relative group hidden xl:block'>

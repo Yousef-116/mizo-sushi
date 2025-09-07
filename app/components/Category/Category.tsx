@@ -109,7 +109,7 @@ const Category2 = [
         cols: "",
         btnbgColor: "bg-pink-700",
         btnTextColor: "text-white",
-        imgPosition: "top-0"
+        imgPosition: "top-10" // changed from "top-10" to "-top-10"
     },
     {
         id: 2,
@@ -132,14 +132,14 @@ const Category2 = [
         title: 'Sushi Sandwich',
         title2: 'Sandwich',
         image: "./assets/sushi-image/cat-3-15.png",
-        imageWidth: "w-[350px]",
-        ImageWidth: 350,
+        imageWidth: "w-[500px]",
+        ImageWidth: 500,
         bgColorFrom: "from-green-900",
         bgColorTo: "to-green-800",
         cols: "col-span-2",
         btnbgColor: "bg-green-700",
         btnTextColor: "text-white",
-        imgPosition: "top-0"
+        imgPosition: "-top-20"
     },
     {
         id: 4,
@@ -154,7 +154,7 @@ const Category2 = [
         cols: "col-span-2",
         btnbgColor: "bg-orange-700",
         btnTextColor: "text-white",
-        imgPosition: "top-12"
+        imgPosition: "top-0"
     },
     {
         id: 5,
@@ -169,7 +169,7 @@ const Category2 = [
         cols: "",
         btnbgColor: "bg-blue-700",
         btnTextColor: "text-white",
-        imgPosition: "top-0"
+        imgPosition: "top-12"
     },
     {
         id: 6,
@@ -184,7 +184,7 @@ const Category2 = [
         cols: "",
         btnbgColor: "bg-yellow-700",
         btnTextColor: "text-white",
-        imgPosition: "top-0"
+        imgPosition: "right-5 top-12"
     },
     {
         id: 8,

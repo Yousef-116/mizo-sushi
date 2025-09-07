@@ -7,7 +7,7 @@ import { FaWallet } from "react-icons/fa";
 
 const Services = () => {
     return (
-        <div className='container py-16 grid grid-cols-1 lg:grid-cols-3 gap-8'>
+        <div className='container pt-8 pb-0 grid grid-cols-1 lg:grid-cols-3 gap-8'>
             <div className='flex flex-col items-center gap-4'>
                 {/* service icon */}
                 <div>

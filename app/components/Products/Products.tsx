@@ -670,12 +670,12 @@ const Products = () => {
 
     return (
         <div className='container pb-20'>
-            <div className='container text-center w-full pt-24 pb-10'>
+            <div className='container text-center w-full pt-0 pb-5'>
                 <h1 className=' font-bold text-3xl dark:text-white'>Our Products</h1>
-                <p className='text-sm text-gray-400 '>Explore Our Products</p>
+                <p className='text-lg text-white '>Explore Our Products</p>
             </div>
 
-            <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4  gap-5'>
+            <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3  gap-5'>
                 {MenuData.map((data) => (
                     <div
                         data-aos="fade-up"
