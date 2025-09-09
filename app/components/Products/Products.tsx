@@ -15,6 +15,15 @@ import Image from 'next/image'
 
 // Use the local public directory for product data
 //const DATA_URL = "/data/products.json";
+interface Product {
+  id: number;
+  title: string;
+  description: string;
+  image: string;
+  price: number;
+  delay: number;
+  category: string;
+}
 
 
 
@@ -680,21 +689,26 @@ import Image from 'next/image'
 const CSV_URL = "https://docs.google.com/spreadsheets/d/e/2PACX-1vRFENMUz4P-5Tu0HjW1jslaJbz82VcnBWlJU2QXkKfgFiHXVDa4ZYkFm4DXlsZPwFjZ8CHcx0oaiu7a/pub?output=csv";
 
 const Products = () => {
-  const [products, setProducts] = useState<any[]>([]);
+  const [products, setProducts] = useState<Product[]>([]);
+
 
   useEffect(() => {
-    const fetchProducts = async () => {
-      try {
-        const res = await fetch(CSV_URL);
-        const csv = await res.text();
-        const parsed = Papa.parse(csv, { header: true, skipEmptyLines: true });
-        setProducts(parsed.data);
-      } catch (error) {
-        console.error("Error loading products:", error);
-      }
-    };
-    fetchProducts();
-  }, []);
+  const fetchProducts = async () => {
+    try {
+      const res = await fetch(CSV_URL);
+      const csv = await res.text();
+      const parsed = Papa.parse<Product>(csv, {
+        header: true,
+        skipEmptyLines: true,
+      });
+      setProducts(parsed.data);
+    } catch (error) {
+      console.error("Error loading products:", error);
+    }
+  };
+  fetchProducts();
+}, []);
+
 
 
   return (
