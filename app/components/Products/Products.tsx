@@ -1,6 +1,21 @@
-import React from 'react'
+
+import React, { useEffect, useState } from "react";
+import Papa from "papaparse";
+interface Product {
+  id: number;
+  title: string;
+  description?: string;
+  image: string;
+  price: number;
+  delay: number;
+}
+
 //import Button from '../Shared/Button'
 import Image from 'next/image'
+
+// Use the local public directory for product data
+//const DATA_URL = "/data/products.json";
+
 
 
 // const ProductsData = [
@@ -661,80 +676,87 @@ const MenuData =[
 },
 
 ]
+const CSV_URL = "https://docs.google.com/spreadsheets/d/e/2PACX-1vRFENMUz4P-5Tu0HjW1jslaJbz82VcnBWlJU2QXkKfgFiHXVDa4ZYkFm4DXlsZPwFjZ8CHcx0oaiu7a/pub?output=csv";
+
 const Products = () => {
+  const [products, setProducts] = useState<any[]>([]);
+
+  useEffect(() => {
+    const fetchProducts = async () => {
+      try {
+        const res = await fetch(CSV_URL);
+        const csv = await res.text();
+        const parsed = Papa.parse(csv, { header: true, skipEmptyLines: true });
+        setProducts(parsed.data);
+      } catch (error) {
+        console.error("Error loading products:", error);
+      }
+    };
+    fetchProducts();
+  }, []);
 
 
-    // function clickBtn() {
-    //     console.log('clicked')
-    // }
+  return (
+    <div className='container pb-20'>
+      <div className='container text-center w-full pt-0 pb-5'>
+        <h1 className=' font-bold text-3xl dark:text-white'>Our Products</h1>
+        <p className='text-lg text-white '>Explore Our Products</p>
+      </div>
 
-    return (
-        <div className='container pb-20'>
-            <div className='container text-center w-full pt-0 pb-5'>
-                <h1 className=' font-bold text-3xl dark:text-white'>Our Products</h1>
-                <p className='text-lg text-white '>Explore Our Products</p>
+      <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3  gap-5'>
+        {products.map((product, idx) => (
+          <div
+            data-aos="fade-up"
+            // data-aos-delay={`${product.delay}`}
+            data-aos-duration='500'
+            key={product.id ?? idx}
+            className="
+              flex flex-row
+              items-center
+              bg-gray-900 dark:bg-gray-900
+              rounded-xl shadow-md
+              overflow-hidden
+              p-4
+              gap-4
+              min-h-[140px]
+            "
+          >
+            {/* Card Image */}
+            <div className="flex-shrink-0">
+              <Image
+                width={100}
+                height={100}
+                src={typeof product.image === 'string' ? product.image : '/placeholder.png'}
+                alt={product.title ?? 'Product Image'}
+                className="object-cover w-[100px] h-[100px] rounded-lg"
+              />
             </div>
-
-            <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3  gap-5'>
-                {MenuData.map((data) => (
-                    <div
-                        data-aos="fade-up"
-                        data-aos-delay={`${data.delay}`}
-                        data-aos-duration='700'
-                        key={data.id}
-                        className="
-                            flex flex-row
-                            items-center
-                            bg-gray-900 dark:bg-gray-900
-                            rounded-xl shadow-md
-                            overflow-hidden
-                            p-4
-                            gap-4
-                            min-h-[140px]
-                        "
-                    >
-                        {/* Card Image */}
-                        <div className="flex-shrink-0">
-                            <Image
-                                width={100}
-                                height={100}
-                                src={data.image}
-                                alt={data.title}
-                                className="object-cover w-[100px] h-[100px] rounded-lg"
-                            />
-                        </div>
-                        {/* Card Content */}
-                        <div className="flex flex-col justify-between flex-1 h-full">
-                            <h2 className="text-lg font-semibold text-white mb-1">
-                                {data.title}
-                            </h2>
-                            <p className="text-sm text-gray-300 mb-2">
-                                {/* Example description, replace with real data Delicious and fresh, made with premium ingredients. */}
-                                
-                                {data.description}
-                            </p>
-                            <div className="flex items-center justify-between">
-                                <span className="text-md font-bold text-white">
-                                    {data.price} L.E
-                                </span>
-                                {/* Add To Cart Button */}
-                                {/* <Button
-                                    textColor="text-white"
-                                    bgColor="bg-primary"
-                                    text="Add To Cart"
-                                    handler={clickBtn}
-                                /> */}
-                            </div>
-                        </div>
-                    </div>
-                ))}
-
+            {/* Card Content */}
+            <div className="flex flex-col justify-between flex-1 h-full">
+              <h2 className="text-lg font-semibold text-white mb-1">
+                {product.title}
+              </h2>
+              <p className="text-sm text-gray-300 mb-2">
+                {/* {product.description} */}
+              </p>
+              <div className="flex items-center justify-between">
+                <span className="text-md font-bold text-white">
+                  {product.price} L.E
+                </span>
+                {/* Add To Cart Button */}
+                {/* <Button
+                  textColor="text-white"
+                  bgColor="bg-primary"
+                  text="Add To Cart"
+                  handler={clickBtn}
+                /> */}
+              </div>
             </div>
-
-
-
-        </div>
-    )
+          </div>
+        ))}
+      </div>
+    </div>
+  )
 }
 
 export default Products
