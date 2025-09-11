@@ -738,7 +738,7 @@ const Products = () => {
 
       <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3  gap-5'>
         {products.map((product, idx) => (
-          product.category.toLowerCase() === selected?.toLowerCase() ||
+          product.category?.toLowerCase().trim() === selected?.toLowerCase().trim()||
           selected === null ||
           selected?.toLowerCase() === "all"
         ) && (
