@@ -690,42 +690,64 @@ const CSV_URL = "https://docs.google.com/spreadsheets/d/e/2PACX-1vRFENMUz4P-5Tu0
 
 const Products = () => {
   const [products, setProducts] = useState<Product[]>([]);
+  const categories = ["Combos", "Sushi Sandwich", "gunkan", "Rolls", "Fried Rolls", "Sauces", "Noodles", "Nigiri", "Salad", "Drinks", "All"];
+  const [selected, setSelected] = useState<string | null>(null);
 
 
   useEffect(() => {
-  const fetchProducts = async () => {
-    try {
-      const res = await fetch(CSV_URL);
-      const csv = await res.text();
-      const parsed = Papa.parse<Product>(csv, {
-        header: true,
-        skipEmptyLines: true,
-      });
-      setProducts(parsed.data);
-    } catch (error) {
-      console.error("Error loading products:", error);
-    }
-  };
-  fetchProducts();
-}, []);
+    const fetchProducts = async () => {
+      try {
+        const res = await fetch(CSV_URL);
+        const csv = await res.text();
+        const parsed = Papa.parse<Product>(csv, {
+          header: true,
+          skipEmptyLines: true,
+        });
+        setProducts(parsed.data);
+      } catch (error) {
+        console.error("Error loading products:", error);
+      }
+    };
+    fetchProducts();
+  }, []);
 
 
 
   return (
-    <div className='container pb-20'>
-      <div className='container text-center w-full pt-0 pb-5'>
-        <h1 className=' font-bold text-3xl dark:text-white'>Our Products</h1>
-        <p className='text-lg text-white '>Explore Our Products</p>
+    <div className='container pb-20 '>
+      <div className='container text-center w-full pt-5 pb-5 '>
+        <h1 className=' font-bold text-3xl text-white'>Menu</h1>
+        <p className='text-lg text-white '>Explore Our Menu</p>
+      </div>
+
+      <div className="flex flex-wrap gap-3 justify-center mb-8">
+        {categories.map((cat) => (
+          <button
+            key={cat}
+            onClick={() => setSelected(cat)}
+            className={`px-4 py-2 rounded-full border font-medium transition-colors
+            ${selected === cat
+                ? "border-red-500 text-red-500"
+                : "border-gray-400 text-gray-600 hover:border-red-300 hover:text-red-300"
+              }`}
+          >
+            {cat}
+          </button>
+        ))}
       </div>
 
       <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3  gap-5'>
         {products.map((product, idx) => (
-          <div
-            data-aos="fade-up"
-            // data-aos-delay={`${product.delay}`}
-            data-aos-duration='500'
-            key={product.id ?? idx}
-            className="
+          product.category.toLowerCase() === selected?.toLowerCase() ||
+          selected === null ||
+          selected?.toLowerCase() === "all"
+        ) && (
+            <div
+              data-aos="fade-up"
+              // data-aos-delay={`${product.delay}`}
+              data-aos-duration='500'
+              key={product.id ?? idx}
+              className="
               flex flex-row
               items-center
               bg-gray-900 dark:bg-gray-900
@@ -735,40 +757,40 @@ const Products = () => {
               gap-4
               min-h-[140px]
             "
-          >
-            {/* Card Image */}
-            <div className="flex-shrink-0">
-              <Image
-                width={100}
-                height={100}
-                src={typeof product.image === 'string' ? product.image : '/placeholder.png'}
-                alt={product.title ?? 'Product Image'}
-                className="object-cover w-[100px] h-[100px] rounded-lg"
-              />
-            </div>
-            {/* Card Content */}
-            <div className="flex flex-col justify-between flex-1 h-full">
-              <h2 className="text-lg font-semibold text-white mb-1">
-                {product.title}
-              </h2>
-              <p className="text-sm text-gray-300 mb-2">
-                 {product.description} 
-              </p>
-              <div className="flex items-center justify-between">
-                <span className="text-md font-bold text-white">
-                  {product.price} L.E
-                </span>
-                {/* Add To Cart Button */}
-                {/* <Button
+            >
+              {/* Card Image */}
+              <div className="flex-shrink-0">
+                <Image
+                  width={100}
+                  height={100}
+                  src={typeof product.image === 'string' ? product.image : '/placeholder.png'}
+                  alt={product.title ?? 'Product Image'}
+                  className="object-cover w-[100px] h-[100px] rounded-lg"
+                />
+              </div>
+              {/* Card Content */}
+              <div className="flex flex-col justify-between flex-1 h-full">
+                <h2 className="text-lg font-semibold text-white mb-1">
+                  {product.title}
+                </h2>
+                <p className="text-sm text-gray-300 mb-2">
+                  {product.description}
+                </p>
+                <div className="flex items-center justify-between">
+                  <span className="text-md font-bold text-white">
+                    {product.price} L.E
+                  </span>
+                  {/* Add To Cart Button */}
+                  {/* <Button
                   textColor="text-white"
                   bgColor="bg-primary"
                   text="Add To Cart"
                   handler={clickBtn}
                 /> */}
+                </div>
               </div>
             </div>
-          </div>
-        ))}
+          ))}
       </div>
     </div>
   )
