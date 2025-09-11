@@ -691,7 +691,7 @@ const CSV_URL = "https://docs.google.com/spreadsheets/d/e/2PACX-1vRFENMUz4P-5Tu0
 const Products = () => {
   const [products, setProducts] = useState<Product[]>([]);
   const categories = ["Combos", "Sushi Sandwich", "gunkan", "Rolls", "Fried Rolls", "Sauces", "Noodles", "Nigiri", "Salad", "Drinks", "All"];
-  const [selected, setSelected] = useState<string | null>(null);
+  const [selected, setSelected] = useState<string | null>("All");
 
 
   useEffect(() => {
