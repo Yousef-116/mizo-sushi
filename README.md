@@ -1,36 +1,42 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🍣 Mizo Sushi
 
-## Getting Started
+A small restaurant website for **Mizo Sushi**, built with **Next.js** and **Tailwind CSS**.  
+The site displays the restaurant menu and contact details, with the menu being updated dynamically from a connected **Google Sheet**.
 
-First, run the development server:
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Mizo%20Sushi-blue?style=for-the-badge&logo=vercel)](https://yousef-116.github.io/mizo-sushi/)
+
+---
+
+## 🚀 Features
+- 📋 Menu items automatically updated via **Google Sheets**
+- 📞 Contact section with restaurant info
+- 📱 Fully responsive design with **Tailwind CSS**
+- ⚡ Built with **Next.js** for fast and modern performance
+
+---
+
+## 🛠️ Tech Stack
+- [Next.js](https://nextjs.org/) – React framework
+- [Tailwind CSS](https://tailwindcss.com/) – styling
+- [Google Sheets API](https://developers.google.com/sheets) – dynamic menu updates
+
+---
+
+## 📸 Preview
+![Website Screenshot](./public/Screenshot%202025-09-21%20002043.png)  
+
+
+---
+
+## 📂 Installation & Setup
 
 ```bash
+# Clone the repository
+git clone https://github.com/Yousef-116/mizo-sushi.git
+cd mizo-sushi
+
+# Install dependencies
+npm install
+
+# Start development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
